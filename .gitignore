@@ -10,3 +10,7 @@ webserver_config.py
 airflow.cfg
 airflow.db
 packages.txt
+*_env.sh
+.terraform*
+*.tfstate
+*.backup
