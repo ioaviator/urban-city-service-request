@@ -7,3 +7,6 @@ logs/
 airflow.db
 airflow.cfg
 *_env.sh
+.terraform*
+*.tfstate
+*.backup
