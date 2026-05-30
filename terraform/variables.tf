@@ -6,7 +6,7 @@ variable "resource_group_name" {
 
 variable "storage_account_name" {
   description = "storage account name"
-  default     = "urbancitystorage"
+  default     = "urbancitystorageacct"
 }
 
 variable "location" {
