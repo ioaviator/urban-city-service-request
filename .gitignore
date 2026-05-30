@@ -14,3 +14,4 @@ packages.txt
 .terraform*
 *.tfstate
 *.backup
+credentials.txt
