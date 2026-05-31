@@ -16,3 +16,4 @@ packages.txt
 *.backup
 credentials.txt
 *.tfvars
+*.csv

@@ -1,1 +1,5 @@
 # Astro Runtime includes the following pre-installed providers packages: https://www.astronomer.io/docs/astro/runtime-image-architecture#provider-packages
+fsspec==2026.2.0
+adlfs==2026.2.0
+azure-storage-blob==12.28.0
+python-dotenv==1.2.2
