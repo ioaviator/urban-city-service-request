@@ -14,7 +14,7 @@ resource "azurerm_data_factory_linked_service_azure_blob_storage" "urbancityblob
 
 
 resource "azurerm_data_factory_dataset_delimited_text" "urbancityds" {
-  name                = "urban_logic_ds"
+  name                = "urban_city_ds"
   data_factory_id     = azurerm_data_factory.urbancitydatafactory.id
   linked_service_name = azurerm_data_factory_linked_service_azure_blob_storage.urbancityblobstoragels.name
 
@@ -33,7 +33,7 @@ resource "azurerm_data_factory_dataset_delimited_text" "urbancityds" {
 }
 
 resource "azurerm_data_factory_dataset_parquet" "urbancityds" {
-  name                = "urban_logic_parquet_ds"
+  name                = "urban_city_parquet_ds"
   data_factory_id     = azurerm_data_factory.urbancitydatafactory.id
   linked_service_name = azurerm_data_factory_linked_service_azure_blob_storage.urbancityblobstoragels.name
   
