@@ -49,5 +49,3 @@ def transform():
   print(f'data loaded to {target_uri}')
 
   return None
-
-transform()

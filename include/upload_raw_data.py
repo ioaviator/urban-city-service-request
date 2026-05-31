@@ -40,4 +40,4 @@ def upload_data():
     except Exception as e:
         print(f"Failed to upload: {e}")
 
-upload_data()
+    return None
