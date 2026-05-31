@@ -1,7 +1,7 @@
 
 resource "azurerm_resource_group" "tfbackend" {
   name     = "tf-backend"
-  location = "East US"
+  location = "South Africa North"
 }
 
 resource "azurerm_storage_account" "urbancitytfstorage" {

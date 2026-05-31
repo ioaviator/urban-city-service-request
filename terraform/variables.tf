@@ -10,7 +10,7 @@ variable "storage_account_name" {
 }
 
 variable "location" {
-  default = "East US"
+  default = "South Africa North"
 }
 
 variable "postgres_server" {
